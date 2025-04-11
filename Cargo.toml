@@ -7,4 +7,6 @@ edition = "2024"
 dav-server = {git = "https://github.com/messense/dav-server-rs.git",features = ["actix-compat"]}
 actix-web = {version = "4.10.2"}
 actix-web-httpauth = "0.8" # Or latest compatible version
-env_logger = "0.10"
+env_logger = "0.11.8"
+clap = { version = "4.5.35", features = ["derive"] }
+log = "0.4.27"
