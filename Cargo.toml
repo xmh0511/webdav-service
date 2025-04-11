@@ -1,0 +1,10 @@
+[package]
+name = "dav-service"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dav-server = {git = "https://github.com/messense/dav-server-rs.git",features = ["actix-compat"]}
+actix-web = {version = "4.10.2"}
+actix-web-httpauth = "0.8" # Or latest compatible version
+env_logger = "0.10"
