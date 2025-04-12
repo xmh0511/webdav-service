@@ -10,3 +10,9 @@ actix-web-httpauth = "0.8" # Or latest compatible version
 env_logger = "0.11.8"
 clap = { version = "4.5.35", features = ["derive"] }
 log = "0.4.27"
+#elevated-command = "1.1.2"
+runas = "1.2.0"
+#runas-rs = "0.1.0"
+
+[target.'cfg(target_os = "windows")'.dependencies]
+winreg = "0.6.1" # 或者使用最新版本
